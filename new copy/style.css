@@ -1,0 +1,59 @@
+body{
+    font-size: 2em;
+    font-family: verdana;
+    background-color: rgb(194, 194, 255);
+    text-align: center;
+}
+
+form{
+    background-color: rgb(185, 185, 255);
+    padding: 25px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(9, 0, 138, 0.458);
+}
+
+#head{
+    background-color: rgb(128, 128, 255);
+    color: rgb(0, 0, 85);
+}
+
+#label{
+    font-weight: bold;
+    color: rgb(0, 0, 141);
+}
+#input{
+    font-weight: bold;
+    background-color: rgb(224, 224, 255);
+    border-width: 0;
+    font-size: 1em;
+    max-width: 100px;
+}
+
+#roll{
+    font-size: 1em;
+    border-radius: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: blue;
+    box-shadow: 5px 5px rgb(0, 0, 117);
+    font-weight: bold;
+    color: rgb(133, 133, 255);
+    cursor: pointer;
+}
+
+#roll:hover{
+        background-color: rgb(56, 56, 255);
+    box-shadow: rgb(1, 1, 217);
+    font-size: 1.2em;
+}
+#button:active{
+     background-color: rgb(56, 56, 255);
+    box-shadow: none;
+}
+#diceResult{
+    color: rgb(0, 0, 136);
+    background-color: rgb(152, 152, 255);
+}
